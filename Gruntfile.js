@@ -11,7 +11,8 @@ module.exports = function ( grunt ) {
         jshint:{
             gruntfile: [
                 'Gruntfile.js'
-            ]
+            ],
+            files:['js/*.js'],
         },
 
         less: {
@@ -48,7 +49,8 @@ module.exports = function ( grunt ) {
                 files: [ 'index.html'],
             },
             js:{
-                files:['js/*.js']
+                files:['js/*.js'],
+                tasks: [ 'jshint:files' ],
             }
           },
     };
