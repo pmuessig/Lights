@@ -1,5 +1,5 @@
 body {
-  background: #efefef;
+  background-image: url('../images/t1.jpg');
 }
 .main-container {
   margin: 0px auto;
@@ -41,6 +41,7 @@ body {
   width: 48px;
   height: 48px;
   background: white;
+  background-image: url('../images/t2.png');
   border: 1px solid #999;
   margin-right: 0px;
   float: left;
@@ -48,7 +49,7 @@ body {
   position: relative;
 }
 .grid-cell.lit {
-  background-color: #ddFFCC;
+  background-color: #66FF1A;
 }
 .grid-cell.active {
   background-color: #00F3FF;
@@ -57,7 +58,9 @@ body {
   background-color: #B822DD;
 }
 .grid-cell.stone {
-  background-color: black;
+  background-image: url('../images/blackTile.jpg');
+  background-position: -2px -2px;
+  background-size: 52px 52px;
 }
 .grid-cell .pip {
   width: 8px;
