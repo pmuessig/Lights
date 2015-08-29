@@ -1,4 +1,5 @@
 # Lights
+[Play](http://pmuessig.github.io/Lights/)
 
 ## Developing
 install nodejs
