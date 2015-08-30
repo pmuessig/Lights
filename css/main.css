@@ -66,8 +66,8 @@ body {
   width: 8px;
   height: 8px;
   background-color: white;
-  border-radius: 50%;
   position: absolute;
+  transform: rotate(45deg);
 }
 .grid-cell.stone-1.valid-1 .pip:nth-child(1),
 .grid-cell.stone-2.valid-1 .pip:nth-child(1),
@@ -128,7 +128,7 @@ body {
 }
 .grid-cell.stone-3 .pip:nth-child(2) {
   top: 41.5%;
-  left: 41.5%;
+  left: 42%;
 }
 .grid-cell.stone-3 .pip:nth-child(3) {
   bottom: 25%;
